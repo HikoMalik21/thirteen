@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.circle{
+
+    display: inline-block;
+    background-color: grey;
+    color: grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-left: 30px;
+    
+    animation: preload 1s ease-in-out alternate .3s infinite;
+    
+
+}
+
+@keyframes preload {
+    from {scale: 1;}
+    to {scale: 2;}
+}
+
+
+.second{
+    animation-delay: 1s;
+}
+
+.third{
+    animation-delay: 1.5s;
+}
+
